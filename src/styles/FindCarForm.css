@@ -1,0 +1,137 @@
+.find_cars-left {
+    background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)), url('../assets/all-images/toyota-offer-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 15px;
+}
+.find_cars-left h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.form_group {
+    width: 30%;
+    margin-bottom: 0;
+    margin-right: 8px;
+}
+.form_group input {
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+    font-size: 0.8rem !important;
+    width: 100%;
+    outline: none;
+}
+.form_group input ::placeholder {
+    color: #7c8a97;
+}
+.form {
+    background: #fff;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    padding-left: 0px;     
+    padding-right: 30px;
+}
+.select_group {
+    width: 30%;
+    margin-right: 8px;
+}
+.select_group select {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    border: 1px solid #7c8a972a;
+    outline: none;
+    color: #7c8a97;
+}
+.form_row {
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+
+.hero_slider-section {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 150px;
+} 
+.hero_form {
+    position: absolute;
+    bottom: -130px;
+    width: 100%;
+}
+
+.find_car-btn {
+    background: #000d6b !important;
+    color: #fff !important;
+    padding: 5px 6px !important;
+    width: 70%;
+    border: none !important;
+    outline: none;
+}
+
+@media only screen and(max-width: 992px) {
+    .find_cars-left {
+        padding: 65px 22px;
+    }
+    .find_cars-left h2 {
+        font-size: 1.5rem;
+    }
+    .form {
+        padding: 30px 10;
+    }
+    .form_group input, .select_group select {
+        padding: 7px 10px;
+        font-size: 0.8rem;
+    }
+    .hero_form {
+        bottom: -100px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .find_cars-left {
+        padding-top: 30px;
+        padding-bottom: 0;
+        background: #fff;
+        text-align: center;
+        color: #000d6b;
+    }
+    .find_cars-left h4 {
+        color: #000d6b;
+    }
+    .form {
+        padding: 20px 10px;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .form .form_group {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .form_group input {
+        font-size: 0.7rem !important;
+    }
+    .select_group {
+        width: 100%;
+        margin-right: 0px;
+        font-size: 0.7rem;
+    }
+    .form_group .find_car-btn {
+        width: 40%;
+    }
+    .find_car-btn {
+        font-size: 0.8rem;
+        margin-left: 32%;
+    }
+    .find_cars-left h4 {
+        font-size: 1rem;
+    }
+    .hero_form {
+        bottom: -280px;
+    }
+}

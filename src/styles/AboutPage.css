@@ -1,0 +1,15 @@
+.about_page-img img{
+    height: 60vh;
+}
+.about_page-content .section_title {
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .about_page-img {
+        display: none;
+    }
+    .about_page-content .section_title {
+        text-align: center;
+    }
+}

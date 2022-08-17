@@ -1,0 +1,53 @@
+.driver_section {
+    background: linear-gradient(rgb(0, 13, 107,0.9), rgb(0, 13, 107, 0.9)), url('../assets/all-images/drive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px, 0px !important;
+}
+
+.driver_section button {
+    background: #fff;
+    color: #000d6b;
+    font-weight: 500;
+}
+.driver_section button:hover {
+        color: #fff;
+        background: #000c6bd0;
+}
+.driver_section-title {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 45px;
+}
+
+@media only screen and (max-width: 992px) {
+    .driver_section-title {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .driver_section {
+        padding: 50px 0px;
+    }
+    .driver_section-title {
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+    .driver_section-btn {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .driver_img {
+        display: none;
+    }
+    .driver_section {
+        text-align: center;
+    }
+}
