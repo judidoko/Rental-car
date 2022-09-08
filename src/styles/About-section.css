@@ -31,13 +31,15 @@
    .about_img {
       margin-top: 40px;
    }
-   /* .about_section-content {
-      margin-top: 9rem;
- } */
-
+   
  }
  @media only screen and (max-width: 567px) {
    .about_section-content {
       margin-top: 9rem;
+ }
+ }
+ @media only screen and (max-width: 428px) {
+   .about_section-content {
+      margin-top: 0rem;
  }
  }

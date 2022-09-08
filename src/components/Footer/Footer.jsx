@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
             <p className="footer_logo-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              mollitia, molestiae quas sint commodi repudiandae consequuntur
               voluptatum. molestiae quas vel sint commodi repudiandae
               consequuntur voluptatum.
             </p>
@@ -55,7 +55,7 @@ const Footer = () => {
 
           <Col lg="2" md="2" sm="6" className="p-1">
             <div className="mb-4 ">
-              <h5 className="footer_link-title mt-(-5)">Quick Links</h5>
+              <h5 className="footer_link-title">Quick Links</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className=" quick_link p-0 mb-2">
@@ -88,11 +88,32 @@ const Footer = () => {
               </div>
             </div>
           </Col>
+          <div className="social_icon d-flex align-items-center gap-4">
+            <h6 className="mt-2 fw-bold">Follow Us : </h6>
+            <div className=" social_link-icon d-flex align-items-center gap-4">
+              <Link to="#" className="facebook">
+                <i className="ri-facebook-line"></i>
+              </Link>
+              <Link to="#" className="instagram">
+                <i className="ri-instagram-line"></i>
+              </Link>
+              <Link to="#" className="linkedin">
+                <i className="ri-linkedin-line"></i>
+              </Link>
+              <Link to="#" className="twitter">
+                <i className="ri-twitter-line"></i>
+              </Link>
+            </div>
+          </div>
           <Col lg="12">
             <div className="footer_bottom">
               <p className="Footer_description d-flex align-items-center justify-content-center gap-1 mt-3">
                 <i className="ri-copyright-line"></i>Copyright {year}, Developed
-                by jUDDOKO. All rights reserved.
+                by{" "}
+                <Link to="#">
+                  <i>jUDDOKO</i>
+                </Link>
+                . All rights reserved.
               </p>
             </div>
           </Col>

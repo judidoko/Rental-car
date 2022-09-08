@@ -11,6 +11,7 @@ import CarItem from "../components/UI/CarItem";
 import DriverSection from "../components/UI/DriverSection";
 import Testimonial from "../components/UI/Testimonial";
 import Bloglist from "../components/UI/Bloglist";
+import "../styles/HomePage.css";
 
 const Home = () => {
   return (

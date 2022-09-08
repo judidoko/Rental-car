@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 15px;
+    padding: 70px 15px;
 }
 .find_cars-left h4 {
     font-weight: 600;
@@ -20,7 +20,7 @@
 .form_group input {
     border: 1px solid #7c8a972a;
     padding: 8px 12px;
-    font-size: 0.8rem !important;
+    font-size: 0.9rem !important;
     width: 100%;
     outline: none;
 }
@@ -134,4 +134,10 @@
     .hero_form {
         bottom: -280px;
     }
+}
+
+@media only screen and (max-width:460px) {
+   .form{
+    padding: 3px 5px;
+}
 }

@@ -1,14 +1,26 @@
 .section_description {
     font-size: 1.2rem;
 }
-
-.social_link-icon {
+.social_link-icon h6 {
+    color: #fff;
+}
+.social_link-icon a {
     text-decoration: none;
+    cursor: pointer;
+}
+.social_link-icon a i {
+    width: 28px;
+    height: 28px;
     color: #000d6b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #000d6b;
+    border-radius: 50%;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
 } 
-
 .contact_btn {
     padding: 7px 15px;
     background: #000d6b;

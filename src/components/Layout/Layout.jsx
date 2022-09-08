@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <Fragment>
       <div>
-        <Header style={{ position: "static" }} />
+        <Header />
       </div>
       <div>
         <Routers />

@@ -53,9 +53,9 @@ const Contact = () => {
                 <h6 className="mb-0 fs-0">Email:</h6>
                 <p className="section_description mb-0">example@gmail.com</p>
               </div>
-              <div className="social_icon">
+              <div className="social_icons">
                 <h6 className="mt-4 fw-bold">Follow Us</h6>
-                <div className=" social_link-icon d-flex align-items-center gap-4 mt-3">
+                <div className="social_link-icon d-flex align-items-center gap-4 mt-3">
                   <Link to="#" className="facebook">
                     <i className="ri-facebook-line"></i>
                   </Link>

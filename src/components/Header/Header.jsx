@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/Header.css";
@@ -61,11 +61,11 @@ const Header = () => {
         </div>
         {/* ============ End of Top Header ============= */}
 
-        {/* ============ Middle Header ============= */}
+        {/* ============ Main Header ============= */}
         <div className="header_middle">
           <Container>
             <Row className="align-items-center">
-              <Col lg="4" md="3" sm="4">
+              <Col lg="4" md="6" sm="6">
                 <div className="logo">
                   <h1>
                     <Link
@@ -81,10 +81,10 @@ const Header = () => {
                 </div>
               </Col>
 
-              <Col lg="5" md="6" sm="4">
+              <Col lg="5" md="6" xm="6">
                 <div className="navigation_wrapper d-flex align-items-center justify-content-between">
-                  <span className="mobile_menu">
-                    <i className="ri-menu-line" onClick={toggleMenu}></i>
+                  <span className="mobile_menu" onClick={toggleMenu}>
+                    <i className="ri-menu-line"></i>
                   </span>
 
                   <div
@@ -110,34 +110,8 @@ const Header = () => {
                   </div>
                 </div>
               </Col>
-              {/* <Col lg="3" md="3" sm="4">
-                <div className="header_location d-flex gap-2">
-                  <span>
-                    <i className="ri-earth-line"></i>
-                  </span>
-                  <div className="header_location-content">
-                    <h6>Nigeria</h6>
-                    <p>HomeLand Street, Abuja</p>
-                  </div>
-                </div>
-              </Col>
-              <Col lg="3" md="3" sm="4">
-                <div className="header_location d-flex gap-2">
-                  <span>
-                    <i className="ri-time-line"></i>
-                  </span>
-                  <div className="header_location-content">
-                    <h6>Mon. to Sat.</h6>
-                    <p>9am - 5pm</p>
-                  </div>
-                </div>
-              </Col> */}
-              <Col
-                lg="3"
-                md="3"
-                sm="0"
-                className="align-items-center justify-content-end"
-              >
+
+              <Col lg="3" className="align-items-center justify-content-end">
                 <div>
                   <button className="header_btn">
                     <Link to="/contact">
@@ -149,45 +123,7 @@ const Header = () => {
             </Row>
           </Container>
         </div>
-        {/* ============ end of Middle Header ============= */}
-
-        {/* ============ main navigation ============= */}
-
-        {/* <div className="main_navbar">
-          <Container>
-            <div className="navigation_wrapper d-flex align-items-center justify-content-between">
-              <span className="mobile_menu">
-                <i className="ri-menu-line" onClick={toggleMenu}></i>
-              </span>
-
-              <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-                <div className="menu">
-                  {navLinks.map((item, index) => (
-                    <NavLink
-                      to={item.path}
-                      key={index}
-                      className={(navClass) =>
-                        navClass.isActive ? "nav_active nav_item" : "nav_item"
-                      }
-                    >
-                      {item.display}
-                    </NavLink>
-                  ))}
-                </div>
-              </div>
-
-              <div className="nav_right">
-                <div className="search_box">
-                  <input type="text" placeholder="Search" />
-                  <span>
-                    <i classname="ri-search-line"></i>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </Container>
-        </div> */}
-        {/* ============ end of main navigation ============= */}
+        {/* ============ end of Main Header ============= */}
       </header>
     </>
   );

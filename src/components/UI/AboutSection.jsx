@@ -17,22 +17,22 @@ const AboutSection = () => {
                 mollitia, molestiae quas vel sint commodi repudiandae
                 consequuntur voluptatum laborum numquam blanditiis.
               </p>
-              <div className="about_section-item d-flex align-items-center">
-                <p className="section_description d-flex align-items-center gap-2">
+              <div className="about_section-item d-flex align-items-center p-2">
+                <p className="d-flex align-items-center gap-2">
                   <i className="ri-checkbox-circle-line"></i>Lorem ipsum dolor
                   sit amet consectetur.
                 </p>
-                <p className="section_description d-flex align-items-center gap-2">
+                <p className="d-flex align-items-center gap-2">
                   <i className="ri-checkbox-circle-line"></i>Lorem ipsum dolor
                   sit amet consectetur.
                 </p>
               </div>
               <div className="about_section-item d-flex align-items-center">
-                <p className="section_description d-flex align-items-center gap-2">
+                <p className="d-flex align-items-center gap-2">
                   <i className="ri-checkbox-circle-line"></i>Lorem ipsum dolor
                   sit amet consectetur.
                 </p>
-                <p className="section_description d-flex align-items-center gap-2">
+                <p className="d-flex align-items-center gap-2">
                   <i className="ri-checkbox-circle-line"></i>Lorem ipsum dolor
                   sit amet consectetur.
                 </p>

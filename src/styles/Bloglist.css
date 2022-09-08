@@ -1,5 +1,7 @@
 .blog_item {
     border: 1px solid #7c8a972e;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 .blog_title {
     text-decoration: none;
@@ -22,7 +24,7 @@
     margin: -6px;
 }
 .blog_info p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .read_more {
     color: #f9a826;
